@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'TIL',
 	description: 'Today I Learned',
-	base: "/TIL/",
+	base: "TIL",
 	dest: "docs",
 	themeConfig: {
 		sidebar: getSidebarArr()
