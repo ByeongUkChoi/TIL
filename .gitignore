@@ -1,5 +1,6 @@
 *.log
 *.swp
 *.bak
+*/.git/
 yarn-*
 yarn.*
