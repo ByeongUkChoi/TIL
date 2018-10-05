@@ -2,5 +2,6 @@
 *.swp
 *.bak
 */.git/
+*/dist/
 yarn-*
 yarn.*
