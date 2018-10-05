@@ -3,5 +3,6 @@
 *.bak
 */.git/
 */dist/
+node_modules/
 yarn-*
 yarn.*
