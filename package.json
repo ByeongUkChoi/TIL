@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "vuepress": "^0.14.4"
-  },
   "scripts": {
     "docs:dev": "vuepress dev docs --host 0.0.0.0",
     "docs:build": "vuepress build docs"
