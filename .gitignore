@@ -1,7 +1,6 @@
 *.log
 *.swp
 *.bak
-deploy.sh
 /docs/.vuepress/dist/
 /node_modules/
 yarn-*
