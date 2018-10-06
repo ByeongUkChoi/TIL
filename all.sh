@@ -6,7 +6,7 @@ set -e
 # git push master
 git pull 
 git add -A
-git commit -m "$1 -all.sh master"
+git commit -m "$1 --all.sh master"
 git push origin master
 
 # build
@@ -23,7 +23,7 @@ rm -rf .git
 
 git init
 git add -A
-git commit -m "$1 -all.sh gh-pages"
+git commit -m "$1 --all.sh gh-pages"
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
