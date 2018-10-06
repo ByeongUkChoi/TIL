@@ -12,6 +12,9 @@ cd docs/.vuepress/dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
+# remove git init
+rm -rf .git
+
 git init
 git add -A
 git commit -m "$1 -deploy"

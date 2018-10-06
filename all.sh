@@ -3,8 +3,14 @@
 # abort on errors
 set -e
 
-# NO build
-# npm run docs:build
+# git push master
+git pull 
+git add -A
+git commit -m "$1 -all.sh master"
+git push origin master
+
+# build
+npm run docs:build
 
 # navigate into the build output directory
 cd docs/.vuepress/dist
@@ -17,7 +23,7 @@ rm -rf .git
 
 git init
 git add -A
-git commit -m "$1 -deploy" 
+git commit -m "$1 -all.sh gh-pages"
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
