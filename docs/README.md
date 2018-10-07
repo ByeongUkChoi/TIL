@@ -14,7 +14,7 @@
 ├─ 2.two.md
 └─ README.md
 ```
-## 사이드바
+## 사이드바 구조
 - HOME
   - (readme.md h1)
     - (h2)
