@@ -1,6 +1,6 @@
 # 사용방법
 ## Deploy
-- TIL/$ bash all.sh {커밋메세지}
+- TIL/$ bash ``all.sh`` {커밋메세지}
   1. github master pull,push
   2. vuepress build
   3. github gh-pages push
