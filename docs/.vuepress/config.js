@@ -5,7 +5,7 @@ module.exports = {
 	themeConfig: {
 		nav: [
 			{ text: 'GitHub', link: 'https://github.com/ChoiBU' },
-			{ test: 'Blog', link: 'https://unhosted.tistory.com' }
+			{ text: 'Blog', link: 'https://unhosted.tistory.com' }
 		],
 		sidebar: getSidebarArr()
 	}
