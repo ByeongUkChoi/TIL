@@ -1,9 +1,15 @@
 # 사용방법
-## 규칙
+## Deploy
+- TIL/$ bash all.sh {커밋메세지}
+  1. github master pull,push
+  2. vuepress build
+  3. github gh-pages push
+## 사이드바 구조
+### 규칙
  - 폴더 => 1뎁스
  - md파일 (h1) => 2뎁스
  - md파일 (h2) => 3뎁스
-## 디렉토리 구조
+### 디렉토리 구조
 ```
 ├─ 1.TEST1 ─┬─ README.md
 │           ├─ 1.T1-one.md
@@ -14,7 +20,7 @@
 ├─ 2.two.md
 └─ README.md
 ```
-## 사이드바 구조
+### 사이드바
 - HOME
   - (readme.md h1)
     - (h2)
