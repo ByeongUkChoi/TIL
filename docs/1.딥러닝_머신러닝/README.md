@@ -13,7 +13,7 @@
 - tensorflow:3분딥러닝 텐서플로우 맛
 - 유튜브:모두를 위한 머신러닝/딥러닝(김성훈교수)
 
-### 시작
+### 시작2
 - 유튜브 (모두를 위한 머신러닝/딥러닝)으로 공부 시작
 - 강의:http://hunkim.github.io/ml/
 - 소스코드:https://github.com/hunkim/DeepLearningZeroToAll/

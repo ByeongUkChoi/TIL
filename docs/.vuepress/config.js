@@ -3,6 +3,10 @@ module.exports = {
 	description: 'Today I Learned',
 	base: "/TIL/",
 	themeConfig: {
+		nav: [
+			{ text: 'GitHub', link: 'https://github.com/ChoiBU' },
+			{ test: 'Blog', link: 'https://unhosted.tistory.com' }
+		],
 		sidebar: getSidebarArr()
 	}
 }
@@ -34,7 +38,7 @@ function makeSidebarObject(folder,mdfileList){
 	var path = folder? '/' + folder + '/': '/'
 	mdfileList = aheadOfReadme(mdfileList)
 	var tmpMdfileList = []
-	// remove .md, add Path 
+	// remove .md, add Path
 	mdfileList.forEach(function(mdfile){
 		if(mdfile.substr(-3) === '.md'){
 			mdfile = mdfile.slice(0,-3) === 'README' ? '' : mdfile.slice(0,-3)
@@ -49,9 +53,9 @@ function makeSidebarObject(folder,mdfileList){
 	}else{
 		title = 'HOME'
 	}
-	return { 
-		title: title, 
-		children:mdfileList 
+	return {
+		title: title,
+		children:mdfileList
 	}
 }
 function aheadOfReadme(arr){
