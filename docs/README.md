@@ -44,4 +44,8 @@
     - (h2 2nd)
   - ...
 
+a
   </disqus>
+  b
+# abc <disqus>1</disqus>
+# abcd <disqus>
