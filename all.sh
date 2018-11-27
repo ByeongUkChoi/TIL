@@ -3,6 +3,7 @@
 # abort on errors
 set -e
 
+
 # git push master
 git pull 
 git add -A
