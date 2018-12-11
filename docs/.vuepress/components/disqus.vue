@@ -1,3 +1,4 @@
+<br>
 <template>
 	<div id="disqus_thread"></div>
 </template>
@@ -5,8 +6,8 @@
 export default {
 	mounted() {
 		var disqus_config = function () {
-			this.page.url = window.location.origin;  
-			this.page.identifier = window.location.pathname; 
+			this.page.url = window.location.origin;
+			this.page.identifier = window.location.pathname;
 		};
 		(function() {
 			var d = window.document, s = d.createElement('script');
