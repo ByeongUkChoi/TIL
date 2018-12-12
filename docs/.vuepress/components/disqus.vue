@@ -1,5 +1,5 @@
 <template>
-    <br>
+    <div><div>
 	<div id="disqus_thread"></div>
 </template>
 <script>
