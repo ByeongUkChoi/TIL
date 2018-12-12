@@ -1,6 +1,5 @@
 <template>
-    <div><p>a</p></div>
-    <div id="disqus_thread"></div>
+    <div id="disqus_thread" style="mergin-top:50px;"></div>
 </template>
 <script>
 export default {
