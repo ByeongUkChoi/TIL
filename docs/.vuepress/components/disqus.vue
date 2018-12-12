@@ -1,6 +1,5 @@
 <template>
-    <div><div>
-	<div id="disqus_thread"></div>
+    <div id="disqus_thread"><br></div>
 </template>
 <script>
 export default {
