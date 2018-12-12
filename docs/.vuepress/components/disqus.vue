@@ -1,4 +1,3 @@
-<br>
 <template>
     <br>
 	<div id="disqus_thread"></div>
