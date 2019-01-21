@@ -4,7 +4,7 @@ module.exports = {
 	base: "/TIL/",
 	themeConfig: {
 		nav: [
-			{ text: 'GitHub', link: 'https://github.com/ChoiBU' },
+			{ text: 'GitHub', link: 'https://github.com/ByeongUkChoi' },
 			{ text: 'Blog', link: 'https://unhosted.tistory.com' }
 		],
 		sidebar: getSidebarArr()
