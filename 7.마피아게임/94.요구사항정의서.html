@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>요구사항 정의서 | TIL</title>
+    <meta name="description" content="Today I Learned">
+    
+    
+    <link rel="preload" href="/TIL/assets/css/0.styles.ac85a3b9.css" as="style"><link rel="preload" href="/TIL/assets/js/app.f4f4f010.js" as="script"><link rel="preload" href="/TIL/assets/js/20.9dfa8f78.js" as="script"><link rel="preload" href="/TIL/assets/js/4.cc23a868.js" as="script"><link rel="prefetch" href="/TIL/assets/js/10.5b5795b5.js"><link rel="prefetch" href="/TIL/assets/js/11.5c24ae0e.js"><link rel="prefetch" href="/TIL/assets/js/12.47fc06e4.js"><link rel="prefetch" href="/TIL/assets/js/13.ca260f20.js"><link rel="prefetch" href="/TIL/assets/js/14.0b306e5d.js"><link rel="prefetch" href="/TIL/assets/js/15.a68f305f.js"><link rel="prefetch" href="/TIL/assets/js/16.0b893d1e.js"><link rel="prefetch" href="/TIL/assets/js/17.68855fb6.js"><link rel="prefetch" href="/TIL/assets/js/18.f081acd8.js"><link rel="prefetch" href="/TIL/assets/js/19.f8a8c8fb.js"><link rel="prefetch" href="/TIL/assets/js/2.f92558c5.js"><link rel="prefetch" href="/TIL/assets/js/21.4b7b68a1.js"><link rel="prefetch" href="/TIL/assets/js/22.f9cf6af1.js"><link rel="prefetch" href="/TIL/assets/js/23.5a7cbf82.js"><link rel="prefetch" href="/TIL/assets/js/24.bc53d059.js"><link rel="prefetch" href="/TIL/assets/js/25.27776767.js"><link rel="prefetch" href="/TIL/assets/js/3.5eca98ed.js"><link rel="prefetch" href="/TIL/assets/js/5.f07b10b1.js"><link rel="prefetch" href="/TIL/assets/js/6.23104b37.js"><link rel="prefetch" href="/TIL/assets/js/7.67a00e58.js"><link rel="prefetch" href="/TIL/assets/js/8.5456a703.js"><link rel="prefetch" href="/TIL/assets/js/9.65bcd2ca.js">
+    <link rel="stylesheet" href="/TIL/assets/css/0.styles.ac85a3b9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/TIL/" class="home-link router-link-active"><!----> <span class="site-name">TIL</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://github.com/ByeongUkChoi" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://unhosted.tistory.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://github.com/ByeongUkChoi" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://unhosted.tistory.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first collapsable"><p class="sidebar-heading"><span>HOME</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>개발일기</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>JAVA</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>컴퓨터공학</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>PYTHON</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>딥러닝_머신러닝</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading open"><span>마피아게임</span> <span class="arrow down"></span></p> <ul class="sidebar-group-items"><li><a href="/TIL/7.마피아게임/" class="sidebar-link">마피아게임</a></li><li><a href="/TIL/7.마피아게임/1.개발일지.html" class="sidebar-link">개발 일지</a></li><li><a href="/TIL/7.마피아게임/2.싱글cpp버전.html" class="sidebar-link">싱글버전(C++)</a></li><li><a href="/TIL/7.마피아게임/3.싱글리액트버전.html" class="sidebar-link">싱글버전(리액트)</a></li><li><a href="/TIL/7.마피아게임/93.UML.html" class="sidebar-link">UML</a></li><li><a href="/TIL/7.마피아게임/94.요구사항정의서.html" class="active sidebar-link">요구사항 정의서</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/TIL/7.마피아게임/94.요구사항정의서.html#멤버" class="sidebar-link">멤버</a></li><li class="sidebar-sub-header"><a href="/TIL/7.마피아게임/94.요구사항정의서.html#게임" class="sidebar-link">게임</a></li><li class="sidebar-sub-header"><a href="/TIL/7.마피아게임/94.요구사항정의서.html#게임시작" class="sidebar-link">게임시작</a></li><li class="sidebar-sub-header"><a href="/TIL/7.마피아게임/94.요구사항정의서.html#게임종료" class="sidebar-link">게임종료</a></li><li class="sidebar-sub-header"><a href="/TIL/7.마피아게임/94.요구사항정의서.html#게임-2" class="sidebar-link">게임</a></li><li class="sidebar-sub-header"><a href="/TIL/7.마피아게임/94.요구사항정의서.html#플레이어" class="sidebar-link">플레이어</a></li></ul></li></ul></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>javascript</span> <span class="arrow right"></span></p> <!----></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="요구사항-정의서"><a href="#요구사항-정의서" aria-hidden="true" class="header-anchor">#</a> 요구사항 정의서</h1> <h2 id="멤버"><a href="#멤버" aria-hidden="true" class="header-anchor">#</a> 멤버</h2> <p>멤버가 접속한다<br>
+아이디를 입력받는다<br>
+해당 아이디가 게임중일경우 게임에 참여시킨다<br>
+멤버가 게임을 만들수있다<br>
+멤버가 게임에 들어갈수있다<br>
+게임에 들어가면 멤버는 플에이어가 된다.</p> <h2 id="게임"><a href="#게임" aria-hidden="true" class="header-anchor">#</a> 게임</h2> <p>게임에서 게임설정을 할 수있다(직업 종류, 수 설정, 투표로 죽일지 말지 여부)<br>
+직업은 마피아,경찰,의사,시민<br>
+플레이어가 게임을 시작한다<br>
+게임에서는 채팅을 할수있다</p> <h2 id="게임시작"><a href="#게임시작" aria-hidden="true" class="header-anchor">#</a> 게임시작</h2> <p>게임이 시작되면 모든 플레이어는 정해진 직업을 가지게 된다<br>
+플레이어는 자신의 직업을 알게 된다</p> <h6 id="반복"><a href="#반복" aria-hidden="true" class="header-anchor">#</a> 반복:</h6> <p>게임은 낮과 밤이 반복되며 낮부터 시작한다<br>
+낮은 3분의 타이머를 시키며 그 전 혹은 시간이 지나고 버튼을 눌러 의심투표를 한다<br>
+투표시 모든 플레이어는 자신을 제외한 가장 마피아로 의심되는 플레이어에게 투표한다<br>
+투표시에는 채팅이 불가능하다<br>
+모두 투표후 결과가 공개 되며 설정 여부에 따라 사형 한다<br>
+사망한 플레이어는 채팅을 할 수 없다<br>
+밤이된다<br>
+밤에는 개인투표를 한다<br>
+개인투표는 직업에따라 다르게 작동하는 투표이다<br>
+각 직업에게 투표당하면 발생하는 일은 다음과 같다<br>
+마피아-&gt; 사망<br>
+경찰-&gt; 직업확인<br>
+의사-&gt; 마피아에게 지목당해 사망할 경우 생존<br>
+시민-&gt; 아무일도 일어나지 않는다(시민의 존재 숨기기 위한 요소)<br>
+개인투표가 모두 끝나면 아침이 된다<br>
+모든 플레이어에게 사망한 플레이어를 발표한다</p> <h6 id="반복-2"><a href="#반복-2" aria-hidden="true" class="header-anchor">#</a> // 반복</h6> <h2 id="게임종료"><a href="#게임종료" aria-hidden="true" class="header-anchor">#</a> 게임종료</h2> <p>투표로 인하여 마피아가 모두 죽을 경우 인간의 승리로 게임은 종료된다<br>
+시민이 모두 죽을 경우 마피아의 승리로 게임은 종료된다</p> <p>게임이 종료되면 다시 게임시작 전으로 돌아간다</p> <hr> <h1 id="싱글-모드"><a href="#싱글-모드" aria-hidden="true" class="header-anchor">#</a> 싱글 모드</h1> <h2 id="게임-2"><a href="#게임-2" aria-hidden="true" class="header-anchor">#</a> 게임</h2> <p>플레이어 인원을 정한다  (플레이어 이름)<br>
+직업을 정한다  (마피아,의사,경찰,시민)<br>
+게임을 시작한다<br>
+낮투표를 받는다<br>
+결과를 발표한다<br>
+밤투표를 받는다<br>
+결과를 발표한다<br>
+반복</p> <h2 id="플레이어"><a href="#플레이어" aria-hidden="true" class="header-anchor">#</a> 플레이어</h2> <p>낮투표를 한다<br>
+밤투표를 한다</p> <hr> <p><div id="disqus_thread"></div></p></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/TIL/assets/js/20.9dfa8f78.js" defer></script><script src="/TIL/assets/js/4.cc23a868.js" defer></script><script src="/TIL/assets/js/app.f4f4f010.js" defer></script>
+  </body>
+</html>
